@@ -1,0 +1,30 @@
+body {
+    background: #9BA7C0;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    background: #C8D96F;
+}
+
+.scoreboard {
+    display: flex;
+    padding-left: 30vw;
+    padding-right: 26vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.playerSide {
+    display: flex;
+    flex-direction: column;
+}
+
+.compSide {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
