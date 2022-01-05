@@ -26,15 +26,15 @@ function game(playerLower) {
     if (playerLower == computerLower) {
         playerCounter++;
         computerCounter++;
-        alert(`It's a draw! Current score: you: ${playerCounter}; computer: ${computerCounter}`);           
+        alert(`It's a draw!`);           
     }
     else if ((playerLower=="rock" && computerLower=="paper") || (playerLower=="scissors" && computerLower=="rock") || (playerLower=="paper" && computerLower=="scissors")) {
         computerCounter++;
-        alert(`You lose, ${computerLower} beats ${playerLower}. Current score: you: ${playerCounter}; computer: ${computerCounter}`);
+        alert(`You lose, ${computerLower} beats ${playerLower}.`);
     }
     else if ((playerLower=="paper" && computerLower=="rock") || (playerLower=="rock" && computerLower=="scissors") || (playerLower=="scissors" && computerLower=="paper")) {       
         playerCounter++;
-        alert(`You win, ${playerLower} beats ${computerLower}. Current score: you: ${playerCounter}; computer: ${computerCounter}`);
+        alert(`You win, ${playerLower} beats ${computerLower}.`);
     }
     if (playerCounter == 5 || computerCounter ==5){
         if (playerCounter == computerCounter) {
